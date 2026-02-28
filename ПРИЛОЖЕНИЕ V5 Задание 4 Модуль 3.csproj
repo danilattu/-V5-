@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>ПРИЛОЖЕНИЕ_V5_Задание_4_Модуль_3</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WinForms" Version="5.1.57" />
+    <PackageReference Include="Wisp.Comtrade" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
