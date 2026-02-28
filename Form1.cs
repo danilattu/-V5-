@@ -120,7 +120,8 @@ namespace ПРИЛОЖЕНИЕ_V5_Задание_4_Модуль_3
 
         private void файлToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var newvar = new NewClass();
+            newvar.Name = "";
         }
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
