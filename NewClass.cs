@@ -15,12 +15,19 @@ namespace ПРИЛОЖЕНИЕ_V5_Задание_4_Модуль_3
                     return "Поле не заполнено";
                 else
                     return Name;
-            };
+            }
+
             private void SetName(string name)
             { 
             Name = name; 
             }
         }
+        public void DoNothing()
+        {
+
+        }
+
+
 
 
     }
